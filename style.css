@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}  
+.container{
+    width: 99%;
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+table{
+    height: 280px;
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid rgb(20, 65, 20); 
+    text-align: center;
+
+}
+th{
+    background-color: #059D79;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid black;
+}
+tr:hover{
+    background-color: #b8efe2;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+.hea marquee{
+    font-size: 45px;
+    margin-top: 15px;
+    padding-bottom: 40px;
+    color: red;
+    font-weight: 800;
+}
